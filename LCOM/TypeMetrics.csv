@@ -1,0 +1,27 @@
+Project Name,Package Name,Type Name,LCOM1,LCOM2,LCOM3,LCOM4,LCOM5,YALCOM
+hms,com.hms.user.servlet,UserLoginServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.user.servlet,ChangePasswordServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.user.servlet,UserRegisterServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.user.servlet,AppointmentServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.user.servlet,UserLogoutServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.user.servlet,MyNewServlet,3.0,0.0,3.0,2.0,1.5,0.6666666666666666
+hms,com.hms.doctor.servlet,UpdateStatus,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.doctor.servlet,DoctorLogoutServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.doctor.servlet,DoctorChangePassword,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.doctor.servlet,DoctorEditProfileServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.doctor.servlet,DoctorLoginServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.entity,Doctor,132.0,93.0,2.0,2.0,0.8402777777777778,0.10526315789473684
+hms,com.hms.entity,User,37.0,8.0,2.0,2.0,0.6590909090909091,0.16666666666666666
+hms,com.hms.entity,Specialist,9.0,3.0,2.0,2.0,0.6,0.3333333333333333
+hms,com.hms.entity,Appointment,292.0,233.0,2.0,2.0,0.8878205128205128,0.07407407407407407
+hms,com.hms.admin.servlet,DeleteDoctorServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.admin.servlet,AdminLogoutServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.admin.servlet,AdminLoginServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.admin.servlet,DoctorServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.admin.servlet,SpecialistServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.admin.servlet,UpdateDoctorServlet,0.0,0.0,1.0,1.0,0.0,0.0
+hms,com.hms.dao,SpecialistDAO,0.0,0.0,1.0,1.0,-0.0,0.0
+hms,com.hms.dao,DoctorDAO,0.0,0.0,1.0,1.0,-0.0,0.0
+hms,com.hms.dao,UserDAO,0.0,0.0,1.0,1.0,-0.0,0.0
+hms,com.hms.dao,AppointmentDAO,0.0,0.0,1.0,1.0,-0.0,0.0
+hms,com.hms.db,DBConnection,0.0,0.0,1.0,1.0,0.0,0.0

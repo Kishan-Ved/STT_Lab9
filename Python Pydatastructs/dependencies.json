@@ -1,0 +1,1299 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.graphs.tests",
+            "pydatastructs.graphs.tests.test_adjacency_list",
+            "pydatastructs.graphs.tests.test_adjacency_matrix",
+            "pydatastructs.graphs.tests.test_algorithms",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures._backend",
+            "pydatastructs.linear_data_structures._backend.cpp",
+            "pydatastructs.linear_data_structures._extensions",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.linear_data_structures.linked_lists",
+            "pydatastructs.linear_data_structures.tests",
+            "pydatastructs.linear_data_structures.tests.benchmarks",
+            "pydatastructs.linear_data_structures.tests.benchmarks.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.benchmarks.test_arrays",
+            "pydatastructs.linear_data_structures.tests.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.test_arrays",
+            "pydatastructs.linear_data_structures.tests.test_linked_lists",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures._backend",
+            "pydatastructs.miscellaneous_data_structures._backend.cpp",
+            "pydatastructs.miscellaneous_data_structures._extensions",
+            "pydatastructs.miscellaneous_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.multiset",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.miscellaneous_data_structures.tests",
+            "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.tests.test_disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.tests.test_multiset",
+            "pydatastructs.miscellaneous_data_structures.tests.test_queue",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_dynamic",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_static",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack",
+            "pydatastructs.strings",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.strings.tests",
+            "pydatastructs.strings.tests.test_algorithms",
+            "pydatastructs.strings.tests.test_trie",
+            "pydatastructs.strings.trie",
+            "pydatastructs.trees",
+            "pydatastructs.trees._extensions",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.space_partitioning_trees",
+            "pydatastructs.trees.tests",
+            "pydatastructs.trees.tests.test_binary_trees",
+            "pydatastructs.trees.tests.test_heaps",
+            "pydatastructs.trees.tests.test_m_ary_trees",
+            "pydatastructs.trees.tests.test_space_partitioning_tree",
+            "pydatastructs.utils",
+            "pydatastructs.utils._extensions",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util",
+            "pydatastructs.utils.testing_util",
+            "pydatastructs.utils.tests",
+            "pydatastructs.utils.tests.test_code_quality",
+            "pydatastructs.utils.tests.test_misc_util"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "pydatastructs": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.graphs.tests.test_adjacency_list",
+            "pydatastructs.graphs.tests.test_adjacency_matrix",
+            "pydatastructs.graphs.tests.test_algorithms",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.linear_data_structures.linked_lists",
+            "pydatastructs.linear_data_structures.tests.benchmarks.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.benchmarks.test_arrays",
+            "pydatastructs.linear_data_structures.tests.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.test_arrays",
+            "pydatastructs.linear_data_structures.tests.test_linked_lists",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.multiset",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.tests.test_disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.tests.test_multiset",
+            "pydatastructs.miscellaneous_data_structures.tests.test_queue",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_dynamic",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_static",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack",
+            "pydatastructs.strings",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.strings.tests.test_algorithms",
+            "pydatastructs.strings.tests.test_trie",
+            "pydatastructs.strings.trie",
+            "pydatastructs.trees",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.space_partitioning_trees",
+            "pydatastructs.trees.tests.test_binary_trees",
+            "pydatastructs.trees.tests.test_heaps",
+            "pydatastructs.trees.tests.test_m_ary_trees",
+            "pydatastructs.trees.tests.test_space_partitioning_tree",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.tests.test_code_quality",
+            "pydatastructs.utils.tests.test_misc_util"
+        ],
+        "imports": [
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures._extensions",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.linear_data_structures.linked_lists",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures._extensions",
+            "pydatastructs.miscellaneous_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.multiset",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.strings",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.strings.trie",
+            "pydatastructs.trees",
+            "pydatastructs.trees._extensions",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.space_partitioning_trees",
+            "pydatastructs.utils",
+            "pydatastructs.utils._extensions",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util",
+            "pydatastructs.utils.testing_util"
+        ],
+        "name": "pydatastructs",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/__init__.py"
+    },
+    "pydatastructs.graphs": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.graphs.tests.test_adjacency_list",
+            "pydatastructs.graphs.tests.test_adjacency_matrix"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph"
+        ],
+        "name": "pydatastructs.graphs",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/__init__.py"
+    },
+    "pydatastructs.graphs.adjacency_list": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.graph"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.graphs.adjacency_list",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/adjacency_list.py"
+    },
+    "pydatastructs.graphs.adjacency_matrix": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.graph"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.graphs.adjacency_matrix",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/adjacency_matrix.py"
+    },
+    "pydatastructs.graphs.algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.algorithms"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.graphs.algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/algorithms.py"
+    },
+    "pydatastructs.graphs.graph": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.graphs.graph",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/graph.py"
+    },
+    "pydatastructs.graphs.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pydatastructs.graphs.tests",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/tests/__init__.py"
+    },
+    "pydatastructs.graphs.tests.test_adjacency_list": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.graphs.tests.test_adjacency_list",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/tests/test_adjacency_list.py"
+    },
+    "pydatastructs.graphs.tests.test_adjacency_matrix": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.graphs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.graphs.tests.test_adjacency_matrix",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/tests/test_adjacency_matrix.py"
+    },
+    "pydatastructs.graphs.tests.test_algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.graphs.tests.test_algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/graphs/tests/test_algorithms.py"
+    },
+    "pydatastructs.linear_data_structures": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.linear_data_structures.tests.test_arrays",
+            "pydatastructs.linear_data_structures.tests.test_linked_lists",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.tests.test_heaps",
+            "pydatastructs.utils.misc_util"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures._extensions",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.linear_data_structures.linked_lists"
+        ],
+        "name": "pydatastructs.linear_data_structures",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/__init__.py"
+    },
+    "pydatastructs.linear_data_structures._backend": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays"
+        ],
+        "name": "pydatastructs.linear_data_structures._backend",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/_backend/__init__.py"
+    },
+    "pydatastructs.linear_data_structures._backend.cpp": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays"
+        ],
+        "name": "pydatastructs.linear_data_structures._backend.cpp",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/_backend/cpp/__init__.py"
+    },
+    "pydatastructs.linear_data_structures._extensions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.linear_data_structures"
+        ],
+        "name": "pydatastructs.linear_data_structures._extensions",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/_extensions.py"
+    },
+    "pydatastructs.linear_data_structures.algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.linear_data_structures"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures._backend",
+            "pydatastructs.linear_data_structures._backend.cpp",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.linear_data_structures.algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/algorithms.py"
+    },
+    "pydatastructs.linear_data_structures.arrays": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.tests.test_heaps",
+            "pydatastructs.utils.misc_util"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures._backend",
+            "pydatastructs.linear_data_structures._backend.cpp",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.linear_data_structures.arrays",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/arrays.py"
+    },
+    "pydatastructs.linear_data_structures.linked_lists": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.linear_data_structures"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.linear_data_structures.linked_lists",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/linked_lists.py"
+    },
+    "pydatastructs.linear_data_structures.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pydatastructs.linear_data_structures.tests",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/tests/__init__.py"
+    },
+    "pydatastructs.linear_data_structures.tests.benchmarks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pydatastructs.linear_data_structures.tests.benchmarks",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/tests/benchmarks/__init__.py"
+    },
+    "pydatastructs.linear_data_structures.tests.benchmarks.test_algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pytest"
+        ],
+        "name": "pydatastructs.linear_data_structures.tests.benchmarks.test_algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/tests/benchmarks/test_algorithms.py"
+    },
+    "pydatastructs.linear_data_structures.tests.benchmarks.test_arrays": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pytest"
+        ],
+        "name": "pydatastructs.linear_data_structures.tests.benchmarks.test_arrays",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/tests/benchmarks/test_arrays.py"
+    },
+    "pydatastructs.linear_data_structures.tests.test_algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.linear_data_structures.tests.test_algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/tests/test_algorithms.py"
+    },
+    "pydatastructs.linear_data_structures.tests.test_arrays": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.linear_data_structures.tests.test_arrays",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/tests/test_arrays.py"
+    },
+    "pydatastructs.linear_data_structures.tests.test_linked_lists": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.linear_data_structures.tests.test_linked_lists",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/linear_data_structures/tests/test_linked_lists.py"
+    },
+    "pydatastructs.miscellaneous_data_structures": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.tests.test_multiset",
+            "pydatastructs.miscellaneous_data_structures.tests.test_queue",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.tests.test_heaps"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures._extensions",
+            "pydatastructs.miscellaneous_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.multiset",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.miscellaneous_data_structures.stack"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/__init__.py"
+    },
+    "pydatastructs.miscellaneous_data_structures._backend": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures._backend",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/_backend/__init__.py"
+    },
+    "pydatastructs.miscellaneous_data_structures._backend.cpp": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures._backend.cpp",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/_backend/cpp/__init__.py"
+    },
+    "pydatastructs.miscellaneous_data_structures._extensions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures._extensions",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/_extensions.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/algorithms.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.binomial_trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.tests.test_heaps"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.binomial_trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/binomial_trees.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.disjoint_set": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.disjoint_set",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/disjoint_set.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.multiset": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.trees"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.multiset",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/multiset.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.queue": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.tests.test_queue"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.queue",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/queue.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.segment_tree": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.algorithms"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.segment_tree",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/segment_tree.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.sparse_table": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.algorithms"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.sparse_table",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/sparse_table.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.stack": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures._backend",
+            "pydatastructs.miscellaneous_data_structures._backend.cpp",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.stack",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/stack.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/__init__.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/test_binomial_trees.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests.test_disjoint_set": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests.test_disjoint_set",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/test_disjoint_set.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests.test_multiset": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests.test_multiset",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/test_multiset.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests.test_queue": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests.test_queue",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/test_queue.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests.test_range_query_dynamic": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests.test_range_query_dynamic",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/test_range_query_dynamic.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests.test_range_query_static": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests.test_range_query_static",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/test_range_query_static.py"
+    },
+    "pydatastructs.miscellaneous_data_structures.tests.test_stack": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures._backend",
+            "pydatastructs.miscellaneous_data_structures._backend.cpp",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.miscellaneous_data_structures.tests.test_stack",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/miscellaneous_data_structures/tests/test_stack.py"
+    },
+    "pydatastructs.strings": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.strings",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.strings.tests.test_algorithms"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.strings",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.strings.trie"
+        ],
+        "name": "pydatastructs.strings",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/strings/__init__.py"
+    },
+    "pydatastructs.strings.algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.strings",
+            "pydatastructs.strings.algorithms"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.strings",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.strings.algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/strings/algorithms.py"
+    },
+    "pydatastructs.strings.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pydatastructs.strings.tests",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/strings/tests/__init__.py"
+    },
+    "pydatastructs.strings.tests.test_algorithms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.strings"
+        ],
+        "name": "pydatastructs.strings.tests.test_algorithms",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/strings/tests/test_algorithms.py"
+    },
+    "pydatastructs.strings.tests.test_trie": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs"
+        ],
+        "name": "pydatastructs.strings.tests.test_trie",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/strings/tests/test_trie.py"
+    },
+    "pydatastructs.strings.trie": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.strings"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.strings.trie",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/strings/trie.py"
+    },
+    "pydatastructs.trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.multiset",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.trees",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.tests.test_binary_trees",
+            "pydatastructs.trees.tests.test_heaps"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.trees",
+            "pydatastructs.trees._extensions",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.space_partitioning_trees"
+        ],
+        "name": "pydatastructs.trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/__init__.py"
+    },
+    "pydatastructs.trees._extensions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.trees"
+        ],
+        "name": "pydatastructs.trees._extensions",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/_extensions.py"
+    },
+    "pydatastructs.trees.binary_trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.trees",
+            "pydatastructs.trees.tests.test_binary_trees"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.trees",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.trees.binary_trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/binary_trees.py"
+    },
+    "pydatastructs.trees.heaps": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.trees",
+            "pydatastructs.trees.tests.test_heaps"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.trees.heaps",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/heaps.py"
+    },
+    "pydatastructs.trees.m_ary_trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.trees"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.trees.m_ary_trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/m_ary_trees.py"
+    },
+    "pydatastructs.trees.space_partitioning_trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.trees"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util"
+        ],
+        "name": "pydatastructs.trees.space_partitioning_trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/space_partitioning_trees.py"
+    },
+    "pydatastructs.trees.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pydatastructs.trees.tests",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/tests/__init__.py"
+    },
+    "pydatastructs.trees.tests.test_binary_trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.trees",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.trees.tests.test_binary_trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/tests/test_binary_trees.py"
+    },
+    "pydatastructs.trees.tests.test_heaps": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.miscellaneous_data_structures",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.trees.tests.test_heaps",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/tests/test_heaps.py"
+    },
+    "pydatastructs.trees.tests.test_m_ary_trees": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs"
+        ],
+        "name": "pydatastructs.trees.tests.test_m_ary_trees",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/tests/test_m_ary_trees.py"
+    },
+    "pydatastructs.trees.tests.test_space_partitioning_tree": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.trees.tests.test_space_partitioning_tree",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/trees/tests/test_space_partitioning_tree.py"
+    },
+    "pydatastructs.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.graphs.tests.test_adjacency_list",
+            "pydatastructs.graphs.tests.test_adjacency_matrix",
+            "pydatastructs.graphs.tests.test_algorithms",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.linear_data_structures.linked_lists",
+            "pydatastructs.linear_data_structures.tests.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.test_arrays",
+            "pydatastructs.linear_data_structures.tests.test_linked_lists",
+            "pydatastructs.miscellaneous_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.tests.test_disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.tests.test_queue",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_dynamic",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_static",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.strings.trie",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.space_partitioning_trees",
+            "pydatastructs.trees.tests.test_binary_trees",
+            "pydatastructs.trees.tests.test_heaps",
+            "pydatastructs.trees.tests.test_space_partitioning_tree",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.tests.test_misc_util"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils._extensions",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.testing_util"
+        ],
+        "name": "pydatastructs.utils",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/__init__.py"
+    },
+    "pydatastructs.utils._extensions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.utils"
+        ],
+        "name": "pydatastructs.utils._extensions",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/_extensions.py"
+    },
+    "pydatastructs.utils.misc_util": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs.adjacency_list",
+            "pydatastructs.graphs.adjacency_matrix",
+            "pydatastructs.graphs.algorithms",
+            "pydatastructs.graphs.graph",
+            "pydatastructs.graphs.tests.test_algorithms",
+            "pydatastructs.linear_data_structures.algorithms",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.linear_data_structures.linked_lists",
+            "pydatastructs.linear_data_structures.tests.test_arrays",
+            "pydatastructs.miscellaneous_data_structures.algorithms",
+            "pydatastructs.miscellaneous_data_structures.binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.queue",
+            "pydatastructs.miscellaneous_data_structures.segment_tree",
+            "pydatastructs.miscellaneous_data_structures.sparse_table",
+            "pydatastructs.miscellaneous_data_structures.stack",
+            "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.tests.test_queue",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack",
+            "pydatastructs.strings.algorithms",
+            "pydatastructs.strings.trie",
+            "pydatastructs.trees.binary_trees",
+            "pydatastructs.trees.heaps",
+            "pydatastructs.trees.m_ary_trees",
+            "pydatastructs.trees.space_partitioning_trees",
+            "pydatastructs.trees.tests.test_binary_trees",
+            "pydatastructs.trees.tests.test_heaps",
+            "pydatastructs.utils",
+            "pydatastructs.utils.tests.test_misc_util"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.linear_data_structures",
+            "pydatastructs.linear_data_structures.arrays",
+            "pydatastructs.utils"
+        ],
+        "name": "pydatastructs.utils.misc_util",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/misc_util.py"
+    },
+    "pydatastructs.utils.raises_util": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.graphs.tests.test_adjacency_list",
+            "pydatastructs.graphs.tests.test_adjacency_matrix",
+            "pydatastructs.graphs.tests.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.test_arrays",
+            "pydatastructs.linear_data_structures.tests.test_linked_lists",
+            "pydatastructs.miscellaneous_data_structures.tests.test_binomial_trees",
+            "pydatastructs.miscellaneous_data_structures.tests.test_disjoint_set",
+            "pydatastructs.miscellaneous_data_structures.tests.test_queue",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_dynamic",
+            "pydatastructs.miscellaneous_data_structures.tests.test_range_query_static",
+            "pydatastructs.miscellaneous_data_structures.tests.test_stack",
+            "pydatastructs.trees.tests.test_binary_trees",
+            "pydatastructs.trees.tests.test_heaps",
+            "pydatastructs.trees.tests.test_space_partitioning_tree",
+            "pydatastructs.utils.tests.test_misc_util"
+        ],
+        "imports": [
+            "pytest"
+        ],
+        "name": "pydatastructs.utils.raises_util",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/raises_util.py"
+    },
+    "pydatastructs.utils.testing_util": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pydatastructs",
+            "pydatastructs.utils"
+        ],
+        "imports": [
+            "pytest"
+        ],
+        "name": "pydatastructs.utils.testing_util",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/testing_util.py"
+    },
+    "pydatastructs.utils.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pydatastructs.utils.tests",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/tests/__init__.py"
+    },
+    "pydatastructs.utils.tests.test_code_quality": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs"
+        ],
+        "name": "pydatastructs.utils.tests.test_code_quality",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/tests/test_code_quality.py"
+    },
+    "pydatastructs.utils.tests.test_misc_util": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pydatastructs",
+            "pydatastructs.utils",
+            "pydatastructs.utils.misc_util",
+            "pydatastructs.utils.raises_util"
+        ],
+        "name": "pydatastructs.utils.tests.test_misc_util",
+        "path": "/home/kishan/Desktop/pydatastructs/pydatastructs/utils/tests/test_misc_util.py"
+    },
+    "pytest": {
+        "bacon": 2,
+        "imported_by": [
+            "pydatastructs.linear_data_structures.tests.benchmarks.test_algorithms",
+            "pydatastructs.linear_data_structures.tests.benchmarks.test_arrays",
+            "pydatastructs.utils.raises_util",
+            "pydatastructs.utils.testing_util"
+        ],
+        "name": "pytest",
+        "path": "/home/kishan/.local/lib/python3.10/site-packages/pytest/__init__.py"
+    }
+}
